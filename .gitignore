@@ -127,3 +127,28 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# db
+db.sqlite3
+*.sqlite3
+*/migrations/00*py
+*/migrations/__*/00*
+
+MEDIA/
+
+test_tasks/
+
+#Swap files created by text editors
+*.swp
+
+#HTML, CSS, JS and PDF files that we use in generating reports
+*.html
+*.css
+*.js
+*.pdf
+#Report templates
+*/templates/*
+data/db/
+
+# ecommerce/settings.py
+# */settings.py
